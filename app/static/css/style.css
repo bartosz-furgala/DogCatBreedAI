@@ -37,6 +37,13 @@ body {
     background-size: auto; /* Nie skaluj go, użyj rzeczywistego rozmiaru patternu */
     background-position: center top; /* Start z góry i wyśrodkowany */
     background-attachment: fixed; /* Tło pozostaje na miejscu podczas scrollowania */
+
+    /* Dodane skalowanie całej strony */
+    transform: scale(0.8);
+    transform-origin: top left;
+    width: 125vw;
+    height: 125vh;
+    overflow: auto;
 }
 
 .container {
