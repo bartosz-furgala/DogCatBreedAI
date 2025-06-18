@@ -31,18 +31,19 @@ body {
     box-sizing: border-box;
     line-height: 1.6;
 
-    /* --- POPRAWIONA ŚCIEŻKA DO OBRAZKA TŁA! --- */
-    background-image: url('tło.jpg'); /* Ścieżka RELATYWNA, bo plik tło.jpg jest w tym samym folderze co style.css */
-    background-repeat: repeat; /* Powtarzaj obrazek, jeśli to wzór */
-    background-size: auto; /* Nie skaluj go, użyj rzeczywistego rozmiaru patternu */
-    background-position: center top; /* Start z góry i wyśrodkowany */
-    background-attachment: fixed; /* Tło pozostaje na miejscu podczas scrollowania */
+    /* Poprawione tło: */
+    background-image: url('tło.jpg'); /* Ścieżka RELATYWNA - plik tło.jpg w tym samym folderze co style.css */
+    background-repeat: no-repeat;      /* Nie powtarzaj */
+    background-size: auto;             /* Orignalny rozmiar 1920x1080 */
+    background-position: center top;  /* Wyśrodkuj poziomo, przyklej do góry pionowo */
+    background-attachment: fixed;     /* Tło nieruchome przy scrollowaniu */
 
-    /* Dodane skalowanie całej strony */
-    transform: scale(0.8);
-    transform-origin: top left;
-    width: 125vw;
-    height: 125vh;
+    /* Usunięte skalowanie całej strony */
+    /* transform: scale(0.8); */
+    /* transform-origin: top left; */
+    /* width: 125vw; */
+    /* height: 125vh; */
+    
     overflow: auto;
 }
 
@@ -306,3 +307,4 @@ footer {
         max-height: 300px;
     }
 }
+
