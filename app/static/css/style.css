@@ -33,10 +33,10 @@ body {
 
     /* --- POPRAWIONA ŚCIEŻKA DO OBRAZKA TŁA! --- */
     background-image: url('tło.jpg'); /* Ścieżka RELATYWNA, bo plik tło.jpg jest w tym samym folderze co style.css */
-    background-repeat: repeat; /* Powtarzaj obrazek, jeśli to wzór */
-    background-size: auto; /* Nie skaluj go, użyj rzeczywistego rozmiaru patternu */
-    background-position: center top; /* Start z góry i wyśrodkowany */
-    background-attachment: fixed; /* Tło pozostaje na miejscu podczas scrollowania */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .container {
