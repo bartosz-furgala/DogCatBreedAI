@@ -1,0 +1,30 @@
+pet-classifier-webapp
+|   .env
+|   requirements.txt
+|   start-pet-classifier-webapp.bat
+|   struktura.txt
+|   
+\---app
+    |   azure_client.py
+    |   custom_vision_client.py
+    |   main.py
+    |   
+    +---static
+    |   +---css
+    |   |       style.css
+    |   |       tˆo.jpg
+    |   |       
+    |   +---data
+    |   |       translations.json
+    |   |       
+    |   \---js
+    |           script.js
+    |           
+    +---templates
+    |       index.html
+    |       
+    \---__pycache__
+            azure_client.cpython-312.pyc
+            custom_vision_client.cpython-312.pyc
+            main.cpython-312.pyc
+            
